@@ -65,9 +65,9 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = ''
+                    chat.sWelcome = 'اهلا ومرحبا بك'
                 if (!('sBye' in chat))
-                    chat.sBye = ''
+                    chat.sBye = 'باي باي'
                 if (!('sPromote' in chat))
                     chat.sPromote = ''
                 if (!('sDemote' in chat))
@@ -103,8 +103,8 @@ export async function handler(chatUpdate) {
                     acc: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: '',
-                    sBye: '',
+                    sWelcome: 'اهلا ومرحبا بك',
+                    sBye: 'باي باي',
                     sPromote: '',
                     sDemote: '',
                     delete: false,
