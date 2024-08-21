@@ -22,7 +22,7 @@ let handler = async (m, { conn }) => {
 
 }
 
-handler.help = ['ppcouple', 'ppcp']
+handler.help = ['couplepp']
 
 handler.tags = ['img']
 
